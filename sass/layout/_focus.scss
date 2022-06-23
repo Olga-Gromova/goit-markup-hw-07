@@ -1,4 +1,4 @@
-.feature {
+.focus__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -12,20 +12,20 @@
     padding-bottom: 94px;
 }
 
-.features-list {
+.focus__list {
     display: flex;
 }
 
-.feature-data {
+.focus__data {
     width: 270px;
     height: 251px;
 }
 
-.feature-data:not(:last-child) {
+.focus__data:not(:last-child) {
     margin-right: 30px;
 }
 
-.feature-icons {
+.focus__icon {
     display: flex;
     width: 270px;
     height: 120px;
@@ -42,7 +42,7 @@
 
 
 
-.feature-description {
+.focus__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

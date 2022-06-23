@@ -1,8 +1,8 @@
-.about {
+.about-us {
     padding-bottom: 94px;
 }
 
-.about-details {
+.about__title {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +13,7 @@
     color: var(--header-second-color);
 }
 
-.about-images {
+.about__sample {
     display: flex;
     margin-top: 50px;
     position: relative;
@@ -59,11 +59,11 @@
 }
 
 
-.about-img:not(:last-child) {
+.about__img:not(:last-child) {
     margin-right: 30px;
 }
 
-.about-img {
+.about__img {
     width: 370px;
     height: 294px;
 }
