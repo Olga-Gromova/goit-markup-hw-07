@@ -72,14 +72,12 @@
     transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav__link:hover,
-.nav__link:focus {
+    &:hover,
+    &:focus {
     color: var(--main-btn-bg);
     outline: none;
     fill: var(--main-btn-bg);
-
+    }
 }
 
 .logo:focus {

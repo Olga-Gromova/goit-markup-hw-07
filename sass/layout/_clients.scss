@@ -43,6 +43,14 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+    border: 1px solid rgba(33, 150, 243, 1);
+    fill: #2196F3;
+    border-radius: 4px;
+    background-color: inherit;
+    outline: none;
+    }
 }
 
 .our-clients__icon {
@@ -50,11 +58,3 @@
     background-color: inherit;
 }
 
-.our-clients__logo:focus,
-.our-clients__logo:hover {
-    border: 1px solid rgba(33, 150, 243, 1);
-    fill: #2196F3;
-    border-radius: 4px;
-    background-color: inherit;
-    outline: none;
-}

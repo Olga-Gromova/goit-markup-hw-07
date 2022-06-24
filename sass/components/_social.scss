@@ -26,15 +26,16 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social__link:hover,
-.social__link:focus {
+    &:hover,
+    &:focus {
     fill: rgba(255, 255, 255, 1);
     background-color: rgba(33, 150, 243, 1);
     cursor: pointer;
     outline: none;
 }
+}
+
+
 
 .social-links-footer {
     padding-left: 70px;
@@ -79,12 +80,12 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-icons-link:hover,
-.footer-icons-link:focus {
+    &:hover,
+    &:focus {
     fill: rgba(255, 255, 255, 1);
     background-color: rgba(33, 150, 243, 1);
     cursor: pointer;
     outline: none;
+    }
 }
+

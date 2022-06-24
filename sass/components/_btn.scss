@@ -17,12 +17,11 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main__button:hover,
-.main__button:focus {
+    &:hover,
+    &:focus {
     background: var(--btn-order-active);
     outline: none;
+    }
 }
 
 .footer__button {
@@ -48,14 +47,14 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.footer__button:hover,
-.footer__button:focus {
+    &:hover,
+    &:focus {
     background: var(--btn-order-active);
     outline: none;
 }
+}
+
+
 
 .btn-modal-send {
     margin: 0 auto;
@@ -76,11 +75,10 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.btn-modal-send:hover,
-.btn-modal-send:focus {
+    &:hover,
+    &:focus {
     background: var(--btn-order-active);
     outline: none;
 }
+}
+

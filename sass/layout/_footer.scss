@@ -26,6 +26,12 @@
     transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    outline: none;
+    border: transparent;
+    color: var(--accent-color);
+    }
 }
 
 
@@ -33,54 +39,33 @@
     margin-bottom: 9px;
 }
 
-
-.address__data:hover,
-.address__data:focus {
-    color: var(--accent-color);
-}
-
-.address__link {
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.address__link:focus {
-    color: var(--accent-color);
-    outline: none;
-}
-
-
 .address__link {
     color: rgba(255, 255, 255, 0.6);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__link:hover,
-.address__link:focus {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
     outline: none;
+    }
 }
 
-.address__link {
-    color: rgba(255, 255, 255, 0.6);
+.address__maps {
+    color: #FFFFFF;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__link:hover,
-.address__link:focus {
-    color: var(--accent-color);
-    outline: none;
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        outline: none;
+    }
 }
 
 .subscrible {
     padding-left: 94px;
-
 }
 
 .subscrible__box {
@@ -113,13 +98,12 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     outline: none;
-
+    &:focus {
+    border: 1px solid rgba(33, 150, 243, 1);
+    }
 }
 
 .footer-modal-icon {
     vertical-align: middle;
 }
 
-.footer-input:focus {
-    border: 1px solid rgba(33, 150, 243, 1);
-}
